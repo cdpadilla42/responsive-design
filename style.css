@@ -163,6 +163,7 @@ nav {
 .logo {
   grid-row: span 1;
   grid-column: span 1;
+  background: #bada55;
 }
 
 .links {
@@ -178,4 +179,15 @@ nav {
   height: 32px;
   background: black;
   color: white;
+}
+
+@media all and (min-width: 1025px) {
+  .logo {
+    display: none;
+  }
+  .links {
+    grid-column: span 2;
+  }
+
+  /* SWAP! */
 }
