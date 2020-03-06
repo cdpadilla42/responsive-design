@@ -154,8 +154,26 @@ nav {
   top: 0;
   background-color: aquamarine;
   height: 78px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 108px 1fr;
+  grid-template-rows: 48px 30px;
 }
 
+.logo {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.links {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.banner {
+  grid-column: span 2;
+  background-color: yellow;
+}
 .top-nav {
   height: 32px;
   background: black;
