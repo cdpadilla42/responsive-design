@@ -194,6 +194,22 @@ nav {
   .links {
     grid-column: span 2;
   }
+}
 
-  /* SWAP! */
+/* nav */
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-flex li {
+  /* display: inline-block; */
+  padding: 0 20px;
+}
+
+.nav-flex li:nth-child(6),
+.nav-flex li:last-child {
+  color: red;
 }
