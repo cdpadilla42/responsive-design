@@ -147,6 +147,12 @@ nav {
   margin: 0 auto;
 }
 
+@media all and (max-width: 1152px) {
+  .latest-news-flex {
+    width: 100%;
+  }
+}
+
 /* Nav grid */
 
 .sticky-nav {
