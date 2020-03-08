@@ -223,3 +223,24 @@ nav {
     height: 280px;
   }
 }
+
+.main-articles-grid {
+  display: grid;
+  grid-template-columns: 1fr 168px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    'cover side1'
+    'cover side2';
+}
+
+.cover-story {
+  grid-area: cover;
+}
+
+.side1 {
+  grid-area: side1;
+}
+
+.side2 {
+  grid-area: side2;
+}
