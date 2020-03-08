@@ -209,7 +209,17 @@ nav {
   padding: 0 20px;
 }
 
-.nav-flex li:nth-child(6),
-.nav-flex li:last-child {
-  color: red;
+@media all and (max-width: 1215px) {
+  .nav-flex li:nth-child(6),
+  .nav-flex li:last-child {
+    display: none;
+  }
+}
+
+/* Cover grid */
+
+@media all and (max-width: 1023px) {
+  .main-articles-grid {
+    height: 280px;
+  }
 }
