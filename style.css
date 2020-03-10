@@ -258,3 +258,12 @@ nav {
     grid-template-columns: 1fr;
   }
 }
+
+.latest_article {
+  display: flex;
+  flex-direction: column;
+}
+
+.latest_article img {
+  width: 100%;
+}
