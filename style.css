@@ -140,7 +140,7 @@ nav {
   height: 352px;
 }
 
-.latest-news-flex {
+.latest-news-grid {
   background-color: cadetblue;
   width: 1152px;
   height: 1000px;
@@ -148,7 +148,7 @@ nav {
 }
 
 @media all and (max-width: 1152px) {
-  .latest-news-flex {
+  .latest-news-grid {
     width: 100%;
   }
 }
@@ -243,4 +243,18 @@ nav {
 
 .side2 {
   grid-area: side2;
+}
+
+/* Latest News Grid */
+
+.latest-news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(228px, 1fr));
+  grid-gap: 10px;
+}
+
+@media all and (max-width: 705px) {
+  .latest-news-grid {
+    grid-template-columns: 1fr;
+  }
 }
