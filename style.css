@@ -143,7 +143,6 @@ nav {
 .latest-news-grid {
   background-color: cadetblue;
   width: 1152px;
-  height: 1000px;
   margin: 0 auto;
 }
 
@@ -262,8 +261,13 @@ nav {
 .latest_article {
   display: flex;
   flex-direction: column;
+  height: auto;
 }
 
-.latest_article img {
+.article__image {
   width: 100%;
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/sale_26694_primary_image_wide-540x270.jpg');
+  background-size: cover;
+  padding-top: 50%;
+  margin-bottom: 5px;
 }
