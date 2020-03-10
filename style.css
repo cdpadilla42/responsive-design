@@ -252,12 +252,6 @@ nav {
   grid-gap: 10px;
 }
 
-@media all and (max-width: 705px) {
-  .latest-news-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .latest_article {
   display: flex;
   flex-direction: column;
@@ -270,4 +264,19 @@ nav {
   background-size: cover;
   padding-top: 50%;
   margin-bottom: 5px;
+  background-position: 50%;
+}
+
+@media all and (max-width: 705px) {
+  .latest-news-grid {
+    grid-template-columns: 1fr;
+  }
+  .latest_article {
+    flex-direction: row;
+  }
+  .article__image {
+    width: 75px;
+    padding-top: 75px;
+    background-size: cover;
+  }
 }
