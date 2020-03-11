@@ -215,11 +215,81 @@ nav {
   }
 }
 
+/* ---------- */
 /* Cover grid */
+/* ---------- */
+
+/* Cover Articles */
+
+.cover-story {
+  background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.8)),
+    url('./dogs/2019+Portfolio-18.jpg');
+
+  background-size: cover;
+  background-position: 50%;
+}
+
+.side1 {
+  background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.8)),
+    url('./dogs/QL9A3388.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+
+.side2 {
+  background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.8)),
+    url('./dogs/QL9A9324.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+
+.cover {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: end;
+}
+
+.cover__details {
+  color: white;
+  padding: 10px;
+}
+
+/* ---Mobile View */
+
+.cover__category {
+  color: grey;
+}
+
+.cover__title {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.cover__title.main {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.cover__author {
+  color: grey;
+  font-size: 12px;
+}
+
+/* Cover Layout */
 
 @media all and (max-width: 1023px) {
   .main-articles-grid {
     height: 60vh;
+  }
+
+  .cover__title {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .cover__title.main {
+    font-weight: 700;
+    font-size: 38px;
   }
 }
 
@@ -255,48 +325,21 @@ nav {
       'side2';
     height: auto;
   }
+
+  .cover__title,
+  .cover__title.main {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .cover__author {
+    font-size: 12px;
+  }
 }
 
-/* Cover Articles */
+/* ---Mid view */
 
-.cover-story {
-  background: url('./dogs/2019+Portfolio-18.jpg');
-  background-size: cover;
-  background-position: 50%;
-}
-
-.side1 {
-  background: url('./dogs/QL9A3388.jpg');
-  background-size: cover;
-  background-position: 50%;
-}
-
-.side2 {
-  background: url('./dogs/QL9A9324.jpg');
-  background-size: cover;
-  background-position: 50%;
-}
-
-.cover {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: end;
-}
-
-.cover__details {
-  color: white;
-  padding: 10px;
-}
-
-.cover__details h3 {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.cover__author {
-  color: grey;
-  font-size: 12px;
-}
+/* ---Full Desktop View */
 
 /* Latest News Grid */
 
