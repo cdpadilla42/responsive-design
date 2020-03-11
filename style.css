@@ -257,6 +257,14 @@ nav {
   }
 }
 
+/* Cover Articles */
+
+.cover-story {
+  background: url('./dogs/2019+Portfolio-18.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+
 /* Latest News Grid */
 
 .latest-news-grid {
