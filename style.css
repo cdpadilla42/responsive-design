@@ -151,6 +151,33 @@ nav {
   }
 }
 
+/* Top Nav grid*/
+
+.top-nav {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-content: center;
+}
+
+.top-nav-grid {
+  list-style: none;
+  color: grey;
+}
+
+.top-nav-grid > * {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.top-nav-grid.right {
+  justify-self: end;
+  padding-right: 20px;
+}
+
+.top-nav-grid.left {
+  padding-left: 20px;
+}
+
 /* Nav grid */
 
 .sticky-nav {
