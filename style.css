@@ -136,7 +136,6 @@ nav {
 
 .main-articles-grid {
   display: block;
-  background-color: burlywood;
   height: 70vh;
 }
 
@@ -300,6 +299,9 @@ nav {
   grid-template-areas:
     'cover cover side1'
     'cover cover side2';
+  grid-gap: 5px;
+  box-sizing: border-box;
+  margin: 5px;
 }
 
 .cover-story {
