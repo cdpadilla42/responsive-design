@@ -225,11 +225,11 @@ nav {
 
 .main-articles-grid {
   display: grid;
-  grid-template-columns: 1fr 168px;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
-    'cover side1'
-    'cover side2';
+    'cover cover side1'
+    'cover cover side2';
 }
 
 .cover-story {
@@ -242,6 +242,19 @@ nav {
 
 .side2 {
   grid-area: side2;
+}
+
+@media all and (max-width: 767px) {
+  .main-articles-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 136px 136px 136px;
+    grid-gap: 4px;
+    grid-template-areas:
+      'cover'
+      'side1'
+      'side2';
+    height: auto;
+  }
 }
 
 /* Latest News Grid */
