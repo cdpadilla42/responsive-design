@@ -137,7 +137,7 @@ nav {
 .main-articles-grid {
   display: block;
   background-color: burlywood;
-  height: 352px;
+  height: 70vh;
 }
 
 .latest-news-grid {
@@ -219,7 +219,7 @@ nav {
 
 @media all and (max-width: 1023px) {
   .main-articles-grid {
-    height: 280px;
+    height: 60vh;
   }
 }
 
@@ -261,6 +261,18 @@ nav {
 
 .cover-story {
   background: url('./dogs/2019+Portfolio-18.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+
+.side1 {
+  background: url('./dogs/QL9A3388.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+
+.side2 {
+  background: url('./dogs/QL9A9324.jpg');
   background-size: cover;
   background-position: 50%;
 }
