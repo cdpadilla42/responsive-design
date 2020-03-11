@@ -277,6 +277,27 @@ nav {
   background-position: 50%;
 }
 
+.cover {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: end;
+}
+
+.cover__details {
+  color: white;
+  padding: 10px;
+}
+
+.cover__details h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.cover__author {
+  color: grey;
+  font-size: 12px;
+}
+
 /* Latest News Grid */
 
 .latest-news-grid {
