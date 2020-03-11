@@ -159,6 +159,12 @@ nav {
   align-content: center;
 }
 
+@media all and (max-width: 767px) {
+  .top-nav {
+    display: none;
+  }
+}
+
 .top-nav-grid {
   list-style: none;
   color: grey;
