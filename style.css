@@ -378,10 +378,27 @@ nav {
 
 /* Latest News Grid */
 
+.latest_news__heading {
+  color: red;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 10px;
+  width: 1152px;
+  margin: 50px auto 25px auto;
+}
+
+@media all and (max-width: 1152px) {
+  .latest_news__heading {
+    width: auto;
+  }
+}
+
 .latest-news-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(228px, 1fr));
   grid-gap: 10px;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 .latest_article {
