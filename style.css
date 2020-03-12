@@ -532,4 +532,15 @@ nav {
 
 .card__bottom_grid {
   display: grid;
+  grid-template-rows: 82px auto;
+  background-color: hotpink;
+}
+
+.partners {
+  padding: 16px 10px;
+}
+
+.card__bottom_grid .deets {
+  padding: 10px 10px 16px 10px;
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
 }
