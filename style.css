@@ -426,6 +426,7 @@ nav {
 
 .article_header:hover {
   text-decoration: underline;
+  text-decoration-color: gray;
   color: orange;
 }
 
@@ -447,5 +448,38 @@ nav {
   .article__image {
     width: 75px;
     padding-top: 75px;
+  }
+}
+
+/* Funding Section */
+
+.funding__links a {
+  color: red;
+  text-decoration: none;
+}
+
+.funding__links a:hover {
+  color: black;
+}
+
+.funding__links {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.funding__links > * {
+  display: inline-block;
+  padding: 0 10px;
+  border-right: 1px solid orange;
+}
+
+.funding__links li:last-child {
+  border-right: none;
+}
+
+@media all and (max-width: 705px) {
+  .funding__links > * {
+    display: block;
+    padding: 8px 0;
   }
 }
