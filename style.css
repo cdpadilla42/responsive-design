@@ -493,3 +493,19 @@ nav {
   background-size: cover;
   background-position: 50%;
 }
+
+.card__top_grid {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  width: 400px;
+  background-color: blueviolet;
+  grid-gap: 15px;
+}
+
+.card__bis_name {
+  color: white;
+}
+
+.card__fund_src {
+  color: grey;
+}
