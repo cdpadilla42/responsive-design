@@ -488,24 +488,25 @@ nav {
 
 .card__top_grid {
   display: grid;
-  grid-template-columns: 100px 1fr;
-  grid-template-rows: 1fr, 2fr;
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: 32px 1fr;
   width: 400px;
   height: 103px;
   background: linear-gradient(red, red 32px, wheat 33px, wheat);
-  grid-gap: 15px;
+  align-items: center;
 }
 
 .card__image {
   background: url('dogs/QL9A5874.jpg');
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   background-size: cover;
   background-position: 50%;
 }
 
 .card__image_column {
   grid-row: span 2;
+  align-self: start;
 }
 
 .card__bis_name {
@@ -514,11 +515,11 @@ nav {
 
 .card__fund_src {
   color: grey;
+  display: block;
 }
 
 .card__value {
-  height: 37px;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
 }
