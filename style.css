@@ -483,3 +483,13 @@ nav {
     padding: 8px 0;
   }
 }
+
+/* Funding Cards */
+
+.card__image {
+  background: url('dogs/QL9A5874.jpg');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: 50%;
+}
