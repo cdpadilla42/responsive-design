@@ -1,0 +1,58 @@
+.card__top_grid {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: 42px 1fr;
+  width: 400px;
+  height: 102px;
+  background: linear-gradient(red, red 42px, wheat 43px, wheat);
+  align-items: center;
+}
+
+.card__image {
+  background: green;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-position: 50%;
+  margin-top: 10px;
+}
+
+.card__image_column {
+  grid-row: span 2;
+  align-self: start;
+}
+
+.card__bis_name {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card__value {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.card__fund_src {
+  color: grey;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.card__bottom_grid {
+  display: grid;
+  grid-template-rows: 82px auto;
+  background-color: hotpink;
+  width: 420px;
+}
+
+.partners {
+  padding: 16px 10px;
+}
+
+.card__bottom_grid .deets {
+  padding: 10px 10px 16px 10px;
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+}
