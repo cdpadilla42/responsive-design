@@ -442,7 +442,7 @@ nav {
 }
 
 @media all and (max-width: 705px) {
-  .latest-news-grid {
+  .page-grid {
     grid-template-columns: 1fr;
   }
   .latest_article {
@@ -510,6 +510,19 @@ nav {
   grid-template-rows: 42px 1fr;
   height: 102px;
   align-items: center;
+}
+
+@media all and (max-width: 705px) {
+  .latest-news-grid {
+    grid-template-columns: 1fr;
+  }
+  .latest_article {
+    flex-direction: row;
+  }
+  /* .article__image {
+    width: 75px;
+    padding-top: 75px;
+  } */
 }
 
 .card__image {
