@@ -529,3 +529,7 @@ nav {
   font-weight: normal;
   font-size: 14px;
 }
+
+.card__bottom_grid {
+  display: grid;
+}
