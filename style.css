@@ -486,6 +486,16 @@ nav {
 
 /* Funding Cards */
 
+.card__top_grid {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: 1fr, 2fr;
+  width: 400px;
+  height: 103px;
+  background: linear-gradient(red, red 32px, wheat 33px, wheat);
+  grid-gap: 15px;
+}
+
 .card__image {
   background: url('dogs/QL9A5874.jpg');
   width: 100px;
@@ -494,12 +504,8 @@ nav {
   background-position: 50%;
 }
 
-.card__top_grid {
-  display: grid;
-  grid-template-columns: 100px 1fr;
-  width: 400px;
-  background-color: blueviolet;
-  grid-gap: 15px;
+.card__image_column {
+  grid-row: span 2;
 }
 
 .card__bis_name {
@@ -508,4 +514,11 @@ nav {
 
 .card__fund_src {
   color: grey;
+}
+
+.card__value {
+  height: 37px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
