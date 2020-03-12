@@ -465,6 +465,7 @@ nav {
 .funding__links {
   list-style: none;
   padding-left: 10px;
+  margin-bottom: 25px;
 }
 
 .funding__links > * {
@@ -538,15 +539,24 @@ nav {
 .card__bottom_grid {
   display: grid;
   grid-template-rows: 82px auto;
-  background-color: hotpink;
+  background-color: #fffaf8;
   width: 420px;
 }
 
 .partners {
   padding: 16px 10px;
+  line-height: 1.5em;
 }
 
 .card__bottom_grid .deets {
   padding: 10px 10px 16px 10px;
   border-top: 1px solid rgba(255, 68, 34, 0.25);
+}
+
+.deets {
+  font-size: 14px;
+}
+
+.deets span {
+  color: grey;
 }
