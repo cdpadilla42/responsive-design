@@ -489,11 +489,12 @@ nav {
 .card__top_grid {
   display: grid;
   grid-template-columns: 80px 1fr;
-  grid-template-rows: 32px 1fr;
+  grid-template-rows: 42px 1fr;
   width: 400px;
-  height: 103px;
-  background: linear-gradient(red, red 32px, wheat 33px, wheat);
+  height: 102px;
+  background: linear-gradient(red, red 42px, wheat 43px, wheat);
   align-items: center;
+  padding: 0 10px;
 }
 
 .card__image {
@@ -502,6 +503,7 @@ nav {
   height: 60px;
   background-size: cover;
   background-position: 50%;
+  margin-top: 10px;
 }
 
 .card__image_column {
@@ -511,15 +513,19 @@ nav {
 
 .card__bis_name {
   color: white;
-}
-
-.card__fund_src {
-  color: grey;
-  display: block;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .card__value {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.25;
+}
+
+.card__fund_src {
+  color: grey;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
 }
