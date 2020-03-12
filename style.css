@@ -393,7 +393,7 @@ nav {
   }
 }
 
-.latest-news-grid {
+.page-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(228px, 1fr));
   grid-gap: 10px;
@@ -489,12 +489,13 @@ nav {
 
 .card__top_grid_wrap {
   padding: 10px;
-  width: 400px;
+  width: calc(100% - 20px);
   background: linear-gradient(red, red 52px, wheat 43px, wheat);
 }
 
 .card__top_grid {
   display: grid;
+  width: 100%;
   grid-template-columns: 80px 1fr;
   grid-template-rows: 42px 1fr;
 
@@ -540,7 +541,6 @@ nav {
   display: grid;
   grid-template-rows: 82px auto;
   background-color: #fffaf8;
-  width: 420px;
 }
 
 .partners {
