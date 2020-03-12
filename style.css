@@ -382,9 +382,10 @@ nav {
   color: red;
   font-size: 30px;
   font-weight: 700;
-  padding-left: 10px;
   width: 1152px;
   margin: 50px auto 25px auto;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
 }
 
 @media all and (max-width: 1152px) {
@@ -399,6 +400,8 @@ nav {
   grid-gap: 10px;
   box-sizing: border-box;
   padding: 10px;
+  max-width: 1152px;
+  margin: 0 auto;
 }
 
 .latest_article {
@@ -464,14 +467,21 @@ nav {
 
 .funding__links {
   list-style: none;
-  padding-left: 10px;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
   margin-bottom: 25px;
+  width: 1152px;
 }
 
 .funding__links > * {
   display: inline-block;
   padding: 0 10px;
   border-right: 1px solid orange;
+}
+
+.funding__links > li:first-child {
+  padding-left: 0;
 }
 
 .funding__links li:last-child {
@@ -498,9 +508,7 @@ nav {
   width: 100%;
   grid-template-columns: 80px 1fr;
   grid-template-rows: 42px 1fr;
-
   height: 102px;
-
   align-items: center;
 }
 
