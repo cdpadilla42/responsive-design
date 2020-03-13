@@ -600,6 +600,10 @@ nav {
   grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));
 }
 
+.category_card .category_card__heading {
+  width: auto;
+}
+
 .category_card__cover-story {
   background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.8)),
     url('./dogs/2019+Portfolio-18.jpg');
@@ -638,4 +642,26 @@ nav {
 
 .latest__title {
   font-weight: 700;
+}
+
+.latest__title:hover {
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+
+.category_card__articles ul {
+  list-style: disc;
+  list-style: inside;
+}
+
+.category_card__articles li {
+  display: block;
+  padding-left: 10px;
+  line-height: 2;
+  border-bottom: 1px solid gray;
+  color: #2b2d2f;
+}
+
+.category_card__articles li:hover {
+  color: black;
 }
