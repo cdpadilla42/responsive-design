@@ -581,3 +581,9 @@ nav {
 .deets span {
   color: grey;
 }
+
+@media all and (max-width: 961px) {
+  .funding__cards-grid .funding__card:last-child {
+    display: none;
+  }
+}
