@@ -587,3 +587,23 @@ nav {
     display: none;
   }
 }
+
+/* Article Categories Grid */
+
+.categories_grid {
+  background: burlywood;
+  grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));
+}
+
+.category_card__cover-story {
+  background: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.8)),
+    url('./dogs/2019+Portfolio-18.jpg');
+
+  background-size: cover;
+  background-position: 50%;
+  padding-top: calc(80% - 86px);
+}
+
+.category_card .cover__title {
+  font-size: 24px;
+}
