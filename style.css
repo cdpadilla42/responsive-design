@@ -590,6 +590,11 @@ nav {
 
 /* Article Categories Grid */
 
+.category_card {
+  display: grid;
+  grid-gap: 2px;
+}
+
 .categories_grid {
   background: burlywood;
   grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));
@@ -606,4 +611,31 @@ nav {
 
 .category_card .cover__title {
   font-size: 24px;
+}
+
+.category_card__latest {
+  display: grid;
+  grid-template-columns: 1fr 96px;
+}
+
+.latest__image {
+  background: url(./dogs/QL9A9037.jpg);
+  padding-top: 100%;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.latest__heading_wrap {
+  padding: 10px 14px;
+  background: wheat;
+}
+
+.latest__latest,
+.latest__title {
+  color: #f42;
+  line-height: 1.2;
+}
+
+.latest__title {
+  font-weight: 700;
 }
