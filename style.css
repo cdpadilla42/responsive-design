@@ -593,6 +593,7 @@ nav {
 .category_card {
   display: grid;
   grid-gap: 2px;
+  margin-bottom: 10px;
 }
 
 .categories_grid {
@@ -609,6 +610,7 @@ nav {
 .category_card .category_card__heading {
   width: 100%;
   padding: 0;
+  margin: 25px 0 10px 0;
 }
 
 .category_card__cover-story {
