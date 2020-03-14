@@ -404,7 +404,7 @@ nav {
   margin: 0 auto;
 }
 
-.latest_article {
+.grid_article {
   display: flex;
   flex-direction: column;
   height: auto;
@@ -441,14 +441,23 @@ nav {
   padding: 5px 0;
 }
 
+/* ---Deals section aside */
+
+.article__image.square {
+  padding-top: 75%;
+}
+
+/* ---------------------- */
+
 @media all and (max-width: 705px) {
   .page-grid {
     grid-template-columns: 1fr;
   }
-  .latest_article {
+  .grid_article {
     flex-direction: row;
   }
-  .article__image {
+  .article__image,
+  .article__image.square {
     width: 75px;
     padding-top: 75px;
   }
@@ -516,7 +525,7 @@ nav {
   .latest-news-grid {
     grid-template-columns: 1fr;
   }
-  .latest_article {
+  .grid_article {
     flex-direction: row;
   }
   /* .article__image {
