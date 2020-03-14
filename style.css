@@ -682,3 +682,28 @@ nav {
 .category_card__articles li:hover {
   color: black;
 }
+
+/* Deals Section Heading */
+
+.heading_flex {
+  display: flex;
+  align-items: center;
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.deals__heading.section_heading {
+  flex: 1;
+  color: red;
+  font-size: 30px;
+  font-weight: 700;
+  width: 1152px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.deals__more {
+  width: auto;
+  justify-self: end;
+  padding-right: 10px;
+}
