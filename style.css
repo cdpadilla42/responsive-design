@@ -708,3 +708,31 @@ nav {
   padding-right: 10px;
   color: red;
 }
+
+/* Footer */
+
+/* footer links */
+.footer__links {
+  display: grid;
+  background-color: #131313;
+  height: 161px;
+}
+
+.links__list {
+  color: #aaa;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.links__list li {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 14px;
+}
+
+.links__list li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* footer copyrright */
