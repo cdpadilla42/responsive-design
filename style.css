@@ -713,15 +713,17 @@ nav {
 
 /* footer links */
 .footer__links {
-  display: grid;
   background-color: #131313;
   height: 161px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .links__list {
   color: #aaa;
   text-transform: uppercase;
   margin: 0 auto;
+  align-self: center;
 }
 
 .links__list li {
@@ -736,3 +738,24 @@ nav {
 }
 
 /* footer copyrright */
+
+.footer__copyright {
+  color: #aaa;
+  background-color: #000;
+  font-size: 13px;
+  padding: 32px 0;
+}
+
+.footer__copyright .wrap {
+  width: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+@media all and (max-width: 708px) {
+  .footer__copyright .wrap {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+  }
+}
