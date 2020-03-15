@@ -619,6 +619,10 @@ nav {
 
 /* Article Categories Grid */
 
+.news_categories {
+  padding-bottom: 40px;
+}
+
 .category_card {
   display: grid;
   grid-gap: 2px;
@@ -704,6 +708,10 @@ nav {
 }
 
 /* Deals Section Heading */
+
+.deals__grid {
+  padding-bottom: 40px;
+}
 
 .heading_flex {
   display: flex;
